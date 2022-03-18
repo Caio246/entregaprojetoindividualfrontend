@@ -1,0 +1,11 @@
+table {
+  background-color: #e6591f;
+}
+.crud-destino {
+  display: flex;
+  padding: 200px;
+  padding-bottom: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}

@@ -1,0 +1,54 @@
+label,
+textarea {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+label {
+  margin-bottom: 1px;
+  width: 100%;
+  text-align: left;
+}
+
+textarea {
+  padding: 1px 0;
+  margin: 4px;
+  width: 300px;
+  text-align: right;
+  text-justify: distribute;
+}
+
+input {
+  display: inline-block;
+  font-size: 1em;
+  background-color: #d95323;
+  border-radius: 3%;
+  color: white;
+  padding: 10px 100px;
+  font-size: 15px;
+  margin: 5px 2px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+
+container {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+}
+
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 100px;
+}

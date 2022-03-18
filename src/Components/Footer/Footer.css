@@ -1,0 +1,15 @@
+footer i {
+  color: #088c8c;
+}
+
+footer strong {
+  color: #088c8c;
+}
+.icons {
+  color: #d95323;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-content: unset;
+}

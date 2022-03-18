@@ -1,0 +1,29 @@
+img {
+  display: flex;
+  object-fit: cover;
+  height: 200px;
+  width: 350px;
+  justify-content: space-between;
+}
+.carrossel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 150px;
+  box-shadow: 0 12px 20px;
+  background-color: white;
+}
+
+.titulo {
+  list-style: none;
+  font-weight: bold;
+  font-size: x-large;
+  text-shadow: 0ch;
+  text-align: center;
+  color: #e6591f;
+}
+
+.container-c {
+  display: flex;
+  padding: 5px;
+}

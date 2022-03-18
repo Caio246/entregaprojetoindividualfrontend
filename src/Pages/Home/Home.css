@@ -1,0 +1,11 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media (max-width: 900px) {
+  .home {
+    font-size: 0.8rem;
+  }
+}
